@@ -51,7 +51,7 @@ const textMaterial = new THREE.MeshMatcapMaterial();
 textMaterial.matcap = matcapTexture;
 
 fontLoader.load('fonts/font.json', (font) => {
-    const textGeometry = new TextGeometry('What a wonderful world!', {
+    const textGeometry = new TextGeometry('Hello Karina!', {
         font,
         size: 0.5,
         depth: 0.2,
